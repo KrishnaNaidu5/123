@@ -1,0 +1,13 @@
+-In Main file( first console):
+
+
+    -python3 Main.py localhost 10001 5000 keys/genesisPrivateKey.pem
+
+-In Alace console(second console):
+    -python3 Main.py localhost 10003 5003 keys/stakerPrivateKey.pem 
+
+-In Bob console(third console):
+    -python3 Main.py localhost 10002 5001 
+
+-In fourth console:
+    -python3 Interaction.py
